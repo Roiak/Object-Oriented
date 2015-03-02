@@ -1,0 +1,14 @@
+===============================================================================
+
+HW 1 Problem 1
+
+Thinking objectively (ha!) about a past project
+
+Roi A.K. 2:23 am March 2nd 2015
+
+===============================================================================
+
+I'm thinking about a program for my final project from last spring's intro-class. We were trying to look into two directories,
+one that's the "home" directory and one that is coming in from the web. We compared the contents of each one, by making
+lists of the files in each one. If those two lists weren't equal in length, we created a new directory out of the longer one
+(i.e. the more updated version). Primitive version control, if you will.
