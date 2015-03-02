@@ -10,5 +10,21 @@ Roi A.K. 2:23 am March 2nd 2015
 
 I'm thinking about a program for my final project from last spring's intro-class. We were trying to look into two directories,
 one that's the "home" directory and one that is coming in from the web. We compared the contents of each one, by making
-lists of the files in each one. If those two lists weren't equal in length, we created a new directory out of the longer one
-(i.e. the more updated version). Primitive version control, if you will.
+lists of the files in each one. If those two lists weren't equal in length, we created a new directory out of the user input one
+(i.e. the more updated version). Primitive version control, if you will. We did have a function similar to an object that
+listed the contents of each directory but it was clumsy.
+
+We imported some classes of objects such as datetime and disutil.core. Those allowed us to add timestamps which made the
+sorting of each directory easy, as well as make new directory paths for the most updated version.
+
+Those are good examples of how object-oriented thinking could have helped. If I were to rethink the program, I'd create
+a class of objects that goes through files, with different objects fields and methods that read the contents, store them
+in lists, and sort the lists. Then I could make a class of objects to do a similar thing a dimension up, with directories,
+listing the files in them and storing them in sorted lists. I could then have another class that will simply compare those
+types of lists, a class that creates directories, and a class for timestamping and so on.
+
+Instead of struggling to define every component of the process within a couple of functions, we could have compartmentalized
+the problem into its different chunks. That would have allowed us to think about what needs to happen in each file, directory,
+and how those need to interact, then creating a class that deals with the interplay between the two.
+
+
