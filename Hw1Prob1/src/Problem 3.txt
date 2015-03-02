@@ -1,0 +1,21 @@
+=================================================================================================================
+
+Homework 1 Problem 3
+
+Working on understanding one of the packages for use in Java!
+
+3:32 am March 2nd 2015
+
+Roi A.K.
+
+====================================================================================================================
+
+
+I looked at the java.text package. The package holds a collection of classes and subclasses that
+manage the way text is formatted, displayed, and fed through the computer. For example, the ParsePosition class in the
+package allows the user to track where they are in a series of strings, with methods that allow for exceptions like when
+the parser will hit something that isn't a string. Another class, Bidi, will figure out the directionality of the text
+(or string entered by a user), and allow for correct parsing of a paragraph even it doesn't fit the default left-right
+direction. As the comments say, this allows for the legibility of languages like Hebrew and Arabic. This package has
+other classes like Format, DateFormat, and other abstracted objects that facilitate different ways of formatting,
+displaying, and organizing text.
