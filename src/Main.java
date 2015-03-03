@@ -11,14 +11,16 @@
  */
 public class Main {
     public static void main(String[] args){
+
         //Dog.Age(); Cat.Age();
         Dog.Hello(); Cat.Hello();
+
         if (Dog.Age() <= Cat.Age())
             Cat.encounterYoungDog(); Dog.encounterOldCat();
         if (Dog.Age() > Cat.Age())
-            Dog.encounterYoungCat(); Cat.encounterOldDog();
+        Dog.encounterYoungCat(); Cat.encounterOldDog();
+
 
     }
-
 
 }
