@@ -11,7 +11,7 @@ public class Initializing1 {
         System.out.println(i);
     }
     public static void character(){
-        char d = 25;
+        char d = 'd';
         System.out.println(d);
     }
 
