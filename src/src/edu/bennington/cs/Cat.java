@@ -9,20 +9,17 @@ public class Cat {
 
     private String catName;
 
-    public String name;
-
     public Cat(String catName){
         this.catName = catName;
-        this.name = name;
     }
 
     public String getName(){
-        System.out.println("I'm a cat, my name is" + catName);
-        return this.name;
+        System.out.println("I'm a cat, my name is:");
+        return this.catName;
     }
 
     public void printName(){
-        System.out.println("my cat name is" + getName());
+        System.out.println(getName());
     }
     public static void meow(){
         System.out.println("meow");
