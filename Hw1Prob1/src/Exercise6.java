@@ -9,12 +9,13 @@ public class Exercise6 {
 
     public static int storage(String x) {
         int stat = x.length()*2;
+        System.out.println(stat);
         return stat;
 
     }
 // this is the problem here
-    public static void printS(){
-        System.out.println(storage());
+    //public static void printS(){
+      //  System.out.println(storage());
     }
-}
+
 
