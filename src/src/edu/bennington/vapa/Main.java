@@ -14,7 +14,7 @@ public class Main {
 
         cat.meow();
 
-        cat.printName();
+        System.out.println(cat.getName());
     }
 
 
